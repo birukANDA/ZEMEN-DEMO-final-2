@@ -1,0 +1,62 @@
+.nav-link {
+  transition: color 0.3s ease;
+}* {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+/* Navbar shadow */
+.header-shadow {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Scroll button */
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: orange;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.scroll-top.show {
+  opacity: 1;
+}
+
+/* Toast */
+.toast-message {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
